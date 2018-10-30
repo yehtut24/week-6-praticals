@@ -1,0 +1,66 @@
+#Tasks1
+
+pi = 0
+n = 0
+
+while (n < 1000 ):
+    pi=pi+((pow(-1,n)*4)/(2*n+1))
+    #print(n,":" ,pi)
+    n=n+1
+
+    #print(pi)
+
+
+#Task 2
+
+
+a = [ 66.25, 333, 333, 1, 1234.5 ]
+
+a.insert(2, -1)
+print (a)
+
+a.append(333)
+print(a)
+
+a.index(333)
+print (a)
+
+a.remove(333)
+print(a)
+
+a.reverse()
+print (a)
+
+a.sort ()
+print (a)
+
+print(a)
+
+#Task 3
+
+square = []
+for i in [0,11]:
+    square.append (i**2)
+print(square)
+
+#Task 4
+
+
+nums = []
+for x in [1,2,3]:
+    for y in [3,1,4]:
+        if x != y:
+            nums.append((x, y))
+
+print(nums)
+
+
+#Task 5
+
+shoppingList = []
+newitems = input("Enter new items")
+if newitems == '':
+        print (newitems)
+        
+
+
