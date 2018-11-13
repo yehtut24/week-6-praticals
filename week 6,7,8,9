@@ -62,5 +62,15 @@ newitems = input("Enter new items")
 if newitems == '':
         print (newitems)
         
+Task 6 
+name =input('Enter your name: ')
+print("Welcome", name)
 
+number =input('Guess the secret number between 1 to 5: ')
+print("Try again", number)
+
+
+name =input('What is your name?:')
+dog  =input('what breed is your dog?:')
+print('So Your name is %s and your dog is %s.' %(name, dog))
 
